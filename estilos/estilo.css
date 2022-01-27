@@ -1,10 +1,14 @@
-html {font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+html {font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agora de 15 pixels */
     font-family: "Open Sans"; /* este deve ser o nome da fonte obtida no Google Fonts */
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 1px #306bec;
 }
 
 p, li {
@@ -12,3 +16,22 @@ p, li {
     line-height: 2;
     letter-spacing: 1px;
 }
+
+html {
+    background-color: #00f3a2a1;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #58d6ec;
+    padding: 0 100px 100px 100px;
+    border: 5px solid #4995f893;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
