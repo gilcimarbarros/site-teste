@@ -25,5 +25,5 @@ if(!localStorage.getItem('nome')) {
     meuCabecalho.textContent = 'Meu site é legal, ' + nomeGuardado;
 }
 
-meuBotao.onclick = function() {defineNomeUsuario;
+meuBotao.onclick = function() { defineNomeUsuario();
 }
