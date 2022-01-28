@@ -14,7 +14,7 @@ let meuCabecalho = document.querySelector('h1');
 
 function defineNomeUsuario(){
     let meuNome = prompt('Por favor, digite seu nome.');
-    localStorage.setitem('nome', meuNome);
+    localStorage.setItem('nome', meuNome);
     meuCabecalho.textContent = 'Meu site é legal,' + meuNome;
 }
 
