@@ -8,14 +8,22 @@ h1 {
     margin: 0;
     padding: 20px 0;
     color: blanchedalmond;
-    text-shadow: 3px 3px 1px #306bec;
+    text-shadow: 3px 3px 1px #000000;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    color: crimson;
+    text-shadow: 1px 1px 1px rgb(5, 4, 0);
 }
 
 p, li {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 1px;
-    color:brown
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    color:rgb(254, 255, 205)
 }
 
 html {
