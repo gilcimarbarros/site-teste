@@ -4,27 +4,39 @@ html {font-size: 15px; /* px significa "pixels": o tamanho da fonte base é agor
 
 h1 {
     font-size: 50px;
+    letter-spacing: 2px;
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    color: rgb(81, 91, 240);
+    color: rgb(238, 130, 151);
+    text-shadow: 1px 1px 1px rgb(5, 4, 0);
+    
     
 }
 
 h2 {
     font-size: 30px;
     text-align: left;
-    color: crimson;
+    letter-spacing: 2px;
+    color: rgb(238, 130, 151);
     text-shadow: 1px 1px 1px rgb(5, 4, 0);
 }
 
-p, li {
+li {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 1px;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     color:rgb(254, 255, 205)
 }
+
+p {
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color:rgb(114, 45, 204)
+}
+
 
 html {
     background-color: #2d86ce94;
